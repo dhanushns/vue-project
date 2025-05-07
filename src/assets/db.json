@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": "7fd9",
+      "location": "Chennai",
+      "name": "Jhon",
+      "age": 21,
+      "department": "Delta",
+      "salary": "20000"
+    },
+    {
+      "id": "3da4",
+      "location": "Chennai",
+      "name": "Dhanush",
+      "age": 21,
+      "department": "United",
+      "salary": "30000"
+    },
+    {
+      "id": "efaa",
+      "location": "Pune",
+      "name": "Gowtham",
+      "age": 45,
+      "department": "Delta",
+      "salary": "40000"
+    }
+  ]
+}
