@@ -1,17 +1,16 @@
 <template>
-  <EmployeeRecords />
+  <nav>
+    <router-link to="/"> Home |  </router-link>
+    <router-link to="/vuex"> Employee Vuex | </router-link>
+    <router-link to="/forms"> Forms </router-link>
+  </nav>
+  <router-view />
 </template>
 
 <script>
-
-import EmployeeRecords from './components/EmployeeComponent'
-
 export default {
-  name: 'App',
-  components: {
-    EmployeeRecords
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
