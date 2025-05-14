@@ -166,8 +166,6 @@ export default {
             background-color: #aeaeae;
             color: #dfdfdf;
         }
-
-
     }
 
 }
@@ -184,5 +182,11 @@ export default {
             display: none;
         }
     }
+
+    .form-model .model-footer {
+        margin: 0;
+        gap: 10px;
+    }
+
 }
 </style>

@@ -22,7 +22,7 @@
         </div>
         <div class="forms-group g1">
             <div class="forms-block b1">
-                <label>Email id</label>
+                <label>Email</label>
                 <input type="email" v-model="getPersonalInformation.email" />
             </div>
             <div class="forms-block b1">
@@ -43,11 +43,11 @@ export default {
 </script>
 
 <style>
-.pers-info {
+.info {
     .forms-group {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         padding: 20px 0;
         gap: 20px;
@@ -57,7 +57,7 @@ export default {
             flex-direction: column;
             flex-basis: 500px;
             gap: 15px;
-            min-width: 250px;
+            min-width: 150px;
 
             label{
                 font-size: 18px;
@@ -77,8 +77,8 @@ export default {
             }
 
             textarea{
-                min-width: 200px;
-                max-width: 600px;
+                min-width: 150px;
+                max-width: 700px;
                 min-height: 60px;
                 max-height: 60px;
                 border: 2px solid #dfdfdf;
